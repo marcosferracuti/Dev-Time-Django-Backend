@@ -8,6 +8,9 @@ Optionally (and usually the best option), you can create a virtual environment f
 
 You can install all the Python packages with the command "pip install -r requirements.txt"
 
+If it is the first time running the project, you should create a user for playing with the api. 
+Run "python manage.py createsuperuser" and follow the steps.
+
 To run the project, run the command "python manage.py" runserver.
 
 For more info on Django's commands, refer to: https://docs.djangoproject.com/en/4.0/
